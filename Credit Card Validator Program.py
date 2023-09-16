@@ -1,4 +1,4 @@
-credit_card_number = input("Enter yout credit card number : ")
+credit_card_number = input("Enter your credit card number : ")
 credit_card_number = credit_card_number.replace("-","")
 credit_card_number = credit_card_number.replace(" ","")
 credit_card_number = credit_card_number[::-1]
@@ -15,6 +15,6 @@ for i in credit_card_number[1::2]:
         add_even_digits += i
 total = add_some + add_even_digits
 if total%10 == 0:
-    print("VAlID")
+    print("VALID")
 else:
     print("INVALID Please try again")
