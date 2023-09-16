@@ -22,4 +22,4 @@ while True:
         continue
     else:
         break
-print("thank you for playing")
+print("Thank you for playing")
